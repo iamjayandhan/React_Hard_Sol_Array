@@ -42,7 +42,7 @@ function App() {
   };
 
   const addName = async () => {
-    await contract.methods.addUserName(name).send({ from: '0x70997970C51812dc3A010C7d01b50e0d17dc79C8' }); // Replace with your actual Ethereum address
+    await contract.methods.addUserName(name).send({ from: '0xdD2FD4581271e230360230F9337D5c0430Bf44C0' }); // Replace with your actual Ethereum address
     setName('');
   };
 
